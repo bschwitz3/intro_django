@@ -1,14 +1,14 @@
+
 {% extends 'listings/base.html' %}
 
 {% block content %}
 
-<h1>Nous contacter</h1>
-<p>Formulaire de contacte</p>
+<h1>Créer un nouveau groupe</h1>
 
 <form action="" method="post">
 	{% csrf_token %}
 	{{ form.as_p }}
-	<input type="submit" value="Envoyer">
+	<input type="submit" value="Créer">
 </form>
 
 {% endblock %}
